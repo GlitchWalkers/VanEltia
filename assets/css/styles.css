@@ -1,0 +1,44 @@
+/* Aca debera ir los estilos de CSS */
+body{background-color: lightblue;}/* #f5f5f5 */
+
+header{text-align: center;}
+
+a:visited{color: black;}
+
+table{
+    background-color: blue;
+    margin:0 auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th,td{background-color: slategray;
+    margin:0 auto;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    border: 2px solid black;
+    padding: 20px;
+}
+td:hover{background-color: #f5f5f5;}
+
+section{
+    text-align: justify;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10% 10px 10%;}
+
+.Fotos{display: block;
+    margin: auto;
+    width: 80%;
+    height: 60%;}
+
+.Cajita{
+    display: block;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: bisque;
+    width: fit-content;
+    margin:0 auto;
+    padding: 10px;}
